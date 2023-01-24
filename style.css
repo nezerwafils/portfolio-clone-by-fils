@@ -1,0 +1,298 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Righteous&display=swap");
+
+/* BROWESR REST */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* GLOBAL STYLES */
+section {
+  padding: 5rem;
+}
+.text-blue {
+  color: rgb(4, 114, 210);
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* BUTTONS */
+a {
+  text-decoration: none;
+}
+.cta-btn {
+  background-color: rgb(4, 114, 210);
+  padding: 0.7rem 2rem;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border-radius: 7px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+}
+.cta-btn:hover {
+  background-color: rgb(17, 134, 237);
+}
+.btn-outline {
+  background-color: white;
+  border: 1px solid rgb(4, 114, 210);
+  color: black;
+}
+.btn-outline:hover {
+  color: white;
+}
+.cta-btn i {
+  margin-right: 5px;
+}
+/* BUTTONS ENDS */
+
+/* HEADER */
+header {
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: black;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-menu a:hover {
+  color: rgb(4, 114, 210);
+}
+.logo {
+  color: rgb(4, 114, 210);
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+}
+/* HEADER ENDS */
+
+/* HERO SECTIONS */
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+.cta-btns {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  text-align: right;
+}
+.right img {
+  width: 80%;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.small-heading,
+.author-name {
+  font-family: "Righteous", cursive;
+}
+.small-heading {
+  /* margin-bottom: 1rem; */
+}
+.author-name {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 0;
+}
+.section-para {
+  padding: 1.5rem 0;
+  font-size: 1.1rem;
+}
+/* HERO ECTIONS */
+
+/* STATS */
+.section-stats {
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.stat-card {
+  background-color: azure;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.stat-icon {
+  font-size: 3.5rem;
+  background-color: rgb(226, 242, 247);
+  /* width: 100px;
+  height: 100px; */
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.stat-icon1 {
+  font-size: 3.5rem;
+  background-color: rgb(226, 242, 247);
+
+  width: 25%;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: 0 40%;
+}
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.stat-title {
+  font-size: 1.2rem;
+}
+/* STATS END */
+/* about */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about h4 {
+  padding: 1rem 0;
+}
+/* about end */
+/* service */
+.container-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+/* i {
+  padding: 0.5rem;
+  border-radius: 50%;
+} */
+.a {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: azure;
+}
+.b {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: azure;
+}
+.c {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: azure;
+}
+/* service end */
+/* why choose me */
+.container-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.d {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: azure;
+}
+.e {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: azure;
+}
+.f {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: azure;
+}
+
+/* why choose me end */
+.container-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.g {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  border: #1f6cff solid 1px;
+  border-radius: 1rem;
+  width: 250px;
+}
+.h {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  border: #1f6cff solid 1px;
+  border-radius: 1rem;
+  width: 250px;
+}
+.i {
+  display: table-column;
+  align-items: center;
+  text-align: center;
+  border: #1f6cff solid 1px;
+  border-radius: 1rem;
+  width: 250px;
+}
+.round {
+  width: 100px;
+  border-radius: 50%;
+}
+p {
+  font-size: 1.1rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  padding: 0.7rem;
+}
+.d-center1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: baseline;
+  gap: 1rem;
+}
+.d-center2 {
+  display: flex;
+  gap: 4rem;
+}
+.d-center3 {
+  display: flex;
+}
+.row5,
+.d-center1 p {
+  justify-content: center;
+}
